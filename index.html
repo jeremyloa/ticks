@@ -7,6 +7,7 @@
     <title>Ticks - Home</title>
     <link rel="icon" type="image/png" href="assets/ticks-icon.png" />
     <link rel="stylesheet" href="style.css">
+    <script defer src="js/jquery-3.6.0.min.js"></script>
     <script defer src="js/index.js"></script>
 </head>
 <body>
@@ -44,7 +45,19 @@
         </nav>
     </header>
     <main>
-        Halo ini HOME
+        <div class="slider-carousel">
+            <div class="carousel">
+                <div class="carousel-container">
+                    <img src="assets/home-1.jpg">
+                    <img src="assets/home-2.jpg">
+                    <img src="assets/home-3.jpg">
+                </div>
+            </div>
+        </div>
+        <div class="arrow-container">
+            <a id="left-arrow" class="carousel-arrow">&laquo;</a>
+            <a id="right-arrow" class="carousel-arrow">&raquo;</a>
+        </div>
     </main>
     <footer>
         <p>&#169; Copyright Ticks 2023. All rights reserved.</p>

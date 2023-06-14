@@ -1,3 +1,10 @@
+home-1
+https://bisnisindonesia.id/media-images/1684374819000_77_konser%20coldplay.jpg
+home-2
+https://img-cdn.pixlr.com/pixlr-templates/61ee9fad2ad45949ea9bb839/preview.webp
+home-3
+https://d1csarkz8obe9u.cloudfront.net/posterpreviews/concert-promo-video-flyer-template-5a25e20ee374d988b343c3a19681b075_screen.jpg?ts=1567081884
+
 detail-1
 https://www.bandsintown.com/e/104461086-daniel-caesar-at-gelora-bung-karno-sports-complex?came_from=253&utm_medium=web&utm_source=city_page&utm_campaign=top_event
 detail-2
@@ -7,11 +14,11 @@ https://www.bandsintown.com/e/104483960-dash-berlin-at-mantra-indonesia?came_fro
 detail-4
 https://www.bandsintown.com/e/104209751-mr.-big-at-the-90's-festival?came_from=253&utm_medium=web&utm_source=city_page&utm_campaign=just_announced
 
-detail-5
-https://www.bandsintown.com/e/104292304-noah-(formerly-known-as-peterpan)-at-taman-impian-jaya-ancol?came_from=253&utm_medium=web&utm_source=city_page&utm_campaign=top_event
-detail-6
-https://www.bandsintown.com/e/104403208-bruno-major-at-gbk-basketball-hall?came_from=253&utm_medium=web&utm_source=city_page&utm_campaign=top_event
-detail-7
-https://www.bandsintown.com/e/104318895-kodaline-at-allianz-eco-park?came_from=253&utm_medium=web&utm_source=city_page&utm_campaign=top_event
-detail-8
-https://www.bandsintown.com/e/104441316-one-ok-rock-at-jakarta-international-stadium?came_from=253&utm_medium=web&utm_source=city_page&utm_campaign=top_event
+register_page
+https://www.pexels.com/photo/singer-singing-on-stage-beside-guitar-player-and-bass-player-167636/
+
+tickets_page
+https://images.pexels.com/photos/976866/pexels-photo-976866.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1
+
+promotions_page
+https://images.pexels.com/photos/1190297/pexels-photo-1190297.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1
