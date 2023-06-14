@@ -196,16 +196,14 @@ form input:focus, form input:hover{
     background-color: #2274A5;
     color: white;
     cursor: pointer;
-    border-color: black;
-    border-style: solid;
     border-radius: 5px;
     border-width: 0;
     padding: 1vh 15px;
     text-align: center;
     font-weight: bold;
     font-size: 18px;
-    transition: background-color 0.2s;
-    transition: color 0.2s;
+    transition: background-color 0.5s;
+    transition: color 0.5s;
     box-shadow: 1px 1px 10px 0 rgba(0, 0, 0, 0.1);
 }
 
