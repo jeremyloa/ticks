@@ -7,7 +7,7 @@
     <title>Ticks - Register</title>
     <link rel="icon" type="image/png" href="assets/ticks-icon.png" />
     <link rel="stylesheet" href="style.css">
-    <script src="js/register.js"></script>
+    <script defer src="js/register.js"></script>
 </head>
 <body>
     <header>
@@ -35,7 +35,39 @@
         </nav>
     </header>
     <main>
-        Halo ini REGISTER
+        <form id="form_register">
+            <h1>Register</h1>
+            <br>
+            <input required class="form-row" type="text" name="email" id="form_email" placeholder="E-mail">
+            <input required class="form-row" type="name" name="name" id="form_name" placeholder="Full Name">
+            <input required class="form-row" type="password" name="password" id="form_pass" placeholder="Password">
+            <input required class="form-row" type="password" name="confirm_password" id="form_conf_pass" placeholder="Confirm Password">
+            <input required  class="form-row" type="tel" name="telephone" id="form_tel" placeholder="Telephone Number">
+            <div class="form-row">
+                <label for="gender">Gender: </label>
+                <div class="radio-content-container">
+                    <div class="radio-content">
+                        <input type="radio" name="gender" id="gender-male" value="gender-male">
+                        <label for="gender-male">Male</label>
+                    </div>
+                    <div class="radio-content">
+                        <input type="radio" name="gender" id="gender-female" value="gender-female">
+                        <label for="gender-female">Female</label>
+                    </div>
+                </div>
+            </div>
+            <div class="form-row">
+                <input type="checkbox" name="agree_tnc" id="form_agree_tnc">
+                <label for="form_agree_tnc">I agree to the terms and conditions.</label>
+            </div>
+            <div class="form-row">
+                <input type="submit" value="Register Now" class="btn">
+            </div>
+            <br>
+            <div class="form-row">
+                <h4 id="error"></h4>
+            </div>
+        </form>
     </main>
     <footer>
         <p>&#169; Copyright Ticks 2023. All rights reserved.</p>

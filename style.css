@@ -39,6 +39,9 @@ header{
     padding-bottom: 1vh;
     box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.1);
     background-color: white;
+    position: fixed;
+    left: 0; right:0; top: 0;
+    z-index: 5;
 }
 
 nav{
@@ -82,6 +85,14 @@ nav li{
     display: block;
 }
 
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
 footer{
     align-items: center;
     display: flex;
@@ -90,9 +101,89 @@ footer{
     padding-right: 3vw;
     padding-top: 2vh;
     padding-bottom: 3vh;
+    box-shadow: 10px 2px 10px 0 rgba(0, 0, 0, 0.1);
     position: fixed;
     left: 0; right:0; bottom: 0;
-    box-shadow: 10px 2px 10px 0 rgba(0, 0, 0, 0.1);
     z-index: 5;
     background-color: white;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    margin-bottom: 60px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    padding: 40px;
+    background-color: whitesmoke;
+    align-items: center;
+    width: 40vw;
+    box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.1);
+}
+
+.form-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 30vw;
+    height: 40px;
+}
+
+.radio-content-container{
+    display: flex;
+}
+
+.radio-content, #form_agree_tnc{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+input, label{
+    font-size: large;
+}
+
+form input{
+    box-shadow: 2px 2px 10px 0 rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    border-width: 0;
+    padding: 10px;
+    background-color: whitesmoke;
+}
+
+form input:focus, form input:hover{
+    background-color: white;
+    outline: none;
+}
+
+.btn{
+    background-color: whitesmoke;
+    cursor: pointer;
+    border-color: black;
+    border-style: solid;
+    border-radius: 5px;
+    border-width: 0;
+    color: #0a0b0c;
+    padding: 1vh 15px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+    transition: background-color 0.2s;
+    transition: color 0.2s;
+    box-shadow: 1px 1px 10px 0 rgba(0, 0, 0, 0.1);
+}
+
+.btn:hover{
+    background-color: white;
+    text-decoration: none;
+    color: #2274A5;
+}
+
+#error{
+    color: maroon;
+    text-align: center;
 }
