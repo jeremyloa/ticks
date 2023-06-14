@@ -15,7 +15,7 @@ detail-4
 https://www.bandsintown.com/e/104209751-mr.-big-at-the-90's-festival?came_from=253&utm_medium=web&utm_source=city_page&utm_campaign=just_announced
 
 register_page
-https://www.pexels.com/photo/singer-singing-on-stage-beside-guitar-player-and-bass-player-167636/
+https://images.pexels.com/photos/167636/pexels-photo-167636.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1
 
 tickets_page
 https://images.pexels.com/photos/976866/pexels-photo-976866.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1
