@@ -5,6 +5,11 @@
     box-sizing: border-box;
 }
 
+::selection {
+    background: #2274A5;
+    color: white;
+}
+
 body{
     background-color: #f3f0f0;
 }
@@ -78,6 +83,7 @@ nav li{
     left: 50%;
     -ms-transform: translate(-50%, 0%);
     transform: translate(-50%, 0%);
+    width: 150px;
 
 }
 
@@ -91,6 +97,8 @@ main{
     align-items: center;
     justify-content: center;
     min-height: 100vh;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
 }
 
 footer{
@@ -183,7 +191,115 @@ form input:focus, form input:hover{
     color: #2274A5;
 }
 
+.btn-blue{
+    background-color: #2274A5;
+    color: white;
+    cursor: pointer;
+    border-color: black;
+    border-style: solid;
+    border-radius: 5px;
+    border-width: 0;
+    padding: 1vh 15px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+    transition: background-color 0.2s;
+    transition: color 0.2s;
+    box-shadow: 1px 1px 10px 0 rgba(0, 0, 0, 0.1);
+}
+
+.btn-blue:hover{
+    background-color: white;
+    text-decoration: none;
+    color: #2274A5;
+}
+
 #error{
     color: maroon;
     text-align: center;
+}
+
+.container{
+    max-height: 50vh;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    padding-left: 2vw;
+    padding-right: 2vw;
+}
+
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.card-row {
+    display: flex;
+    flex-direction: row;
+    width: 80vw;
+}
+
+.card {
+    display: flex;
+    width: 20vw;
+    flex-direction: column;
+    scroll-snap-align: start;
+    margin: 7px;
+    padding: 0 10px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    text-align: center;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+}
+.card a{
+    text-decoration: none;
+}
+.card img{
+    border-radius: 5px;
+    margin-bottom: 5px;
+    width: 100%;
+}
+
+.item-main{
+    display: flex;
+    flex-direction: row;
+    min-height: 50vh;
+    justify-content: space-evenly;
+    padding: 5vh 5vw 5vh 5vw;
+    background-color: white;
+    border-radius: 10px;
+    border-width: 0;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+}
+
+#item_pic{
+    border-radius: 5px;
+    margin-bottom: 5px;
+    width: 100%;
+}
+
+.item-lr{
+    width: 40vw;
+    padding: 1vw;
+    align-items: center;
+}
+
+@media only screen and (max-width: 800px) {
+    .item-main{
+        flex-direction: column;
+    }
+
+    #item_pic{
+        width: 100%;
+    }
+
+    .item-lr{
+        width: 100%;
+    }
+}
+
+#item_name{
+    font-size: xx-large;
+    font-weight: 400;
 }
